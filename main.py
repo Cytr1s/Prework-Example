@@ -8,9 +8,7 @@ elif user_name == "No" or "no":
 else:
     print("I'm sorry. That is not an answer, please try again:")
 
-program_loop = true
-
-def display menu():
+def menu():
     print("1. Create a new account ")
     print("2. Lost username or password, no worries")
     print("2. How can I assist you? ")
