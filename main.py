@@ -19,12 +19,15 @@ def user_selection():
     user_choice == int(input("Enter the number into the system: "))
     if user_choice == 1:
         create_a_new_account()
-    elif user_choice == 2
+    elif user_choice == 2:
         lost_password_or_username()
-    elif user_choice == 3
+    elif user_choice == 3:
         assistance()
-    elif user_choice == 4
+    elif user_choice == 4:
         exit()
         in_use == false
     else:       
          print("\nSorry, Not a Valid Choice. Please try again!")
+         return in_use
+
+    
