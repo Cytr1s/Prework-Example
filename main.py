@@ -13,3 +13,7 @@ def menu():
     print("2. Lost username or password, no worries")
     print("2. How can I assist you? ")
     print("3. Exit")
+
+def user_selection():
+    in_use = true
+    if user_choice == input("Enter the number into the system")
