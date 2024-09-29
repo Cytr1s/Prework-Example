@@ -8,6 +8,13 @@ elif user_name == "No" or "no":
 else:
     print("I'm sorry. That is not an answer, please try again:")
 
+def user(age, name, user, password):
+    user_input = input("How old are you?: ")
+    if user_age = <15
+        print("Sorry. You\'re not old enough to Enter")
+    if user_age = x>15
+        print("Wec") 
+
 def menu():
     print("1. Create a new account ")
     print("2. Lost username or password, no worries")
@@ -30,4 +37,4 @@ def user_selection():
          print("\nSorry, Not a Valid Choice. Please try again!")
          return in_use
 
-    
+def create_a_new_account():
