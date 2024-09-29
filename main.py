@@ -8,9 +8,10 @@ elif user_name == "No" or "no":
 else:
     print("I'm sorry. That is not an answer, please try again:")
 
-def assistance():
-      print("\n **GenZ STORE INVENTORY SYSTEM**")  
-        print("1. View Store Inventory ") 
-        print("2. Add A New Product")   
-        print("3. Remove Products")  
-        print("4. Exit\n")  
+program_loop = true
+
+def display menu():
+    print("1. Create a new account ")
+    print("2. Lost username or password, no worries")
+    print("2. How can I assist you? ")
+    print("3. Exit")
